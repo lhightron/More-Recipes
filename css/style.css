@@ -1,0 +1,51 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-Aug-2017, 19:32:00
+    Author     : LHIGH
+*/
+
+.no_margin{
+    margin: 0px;
+}
+.no_padding{
+    padding: 0px;
+}
+.myfooter{
+    background-color: #222;
+    color: #fff;
+    padding-top: 30px;
+    margin-top:  30px;
+}
+.myBottomFooter{
+    border-top: 1px solid #b2b2b2;
+    padding-top: 10px;
+    margin-top: 10px;
+    color: #b2b2b2;
+}
+.myFooter_nav{
+    text-align: right;
+    list-style: none;
+}
+.myFooter_nav li{
+    display: inline;
+}
+.myFooter_nav li:not(:first-child):before{
+    content: '|';
+    padding: 0px 10px;    
+}
+.myFooter_nav a{
+    color: #b2b2b2;
+}
+.myFooter_nav a:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.myFont{
+    font-family: arial;
+    font-style: italic;
+    font-size: 3px;
+}
